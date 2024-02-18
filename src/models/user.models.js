@@ -43,7 +43,7 @@ const userSchema=new Schema(
             type: String,
             required: [true, "Password cannot be empty"]
         },
-        refreshTokens: {
+        refreshToken: {
             type: String
         }
     }
